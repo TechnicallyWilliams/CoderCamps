@@ -1,0 +1,28 @@
+Dan - Registration
+
+Christian - User Profiles, Randomizer
+
+
+
+
+VM
+WishViewModel (Used for Admin View Model)
+AddWishViewModel
+ApproviewModel (chris)
+DonateViewModel (dexter)
+
+
+
+Repos
+Question about extension method syntax (getreceivername)
+- Getrandomwish
+- getwishreport
+- addwishViewModel
+- approveViewModel (chris)
+
+
+Frameworks
+More extension methods
+ - UserProfile
+
+Study Data Models

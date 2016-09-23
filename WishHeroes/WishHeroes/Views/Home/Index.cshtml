@@ -1,0 +1,23 @@
+﻿@model WishHeroes.ViewModels.WishViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Make a Wish</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        @*This page needs an MVC Form to cycle through the wish list*@
+        <h1>Header</h1>
+        <p>I wish @Model.FullName could receive @Model.Name</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Donated Amount</h2>
+    </div>
+    <div class="col-md-4">
+        <h2>Length of Time</h2>
+    </div>
+    <input type="submit" value="Next"/>
+</div>

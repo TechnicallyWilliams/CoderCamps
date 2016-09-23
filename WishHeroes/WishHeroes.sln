@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishHeroes", "WishHeroes\WishHeroes.csproj", "{074280D8-18FA-4A42-9CC3-25112D386894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishHeroes.Tests", "WishHeroes.Tests\WishHeroes.Tests.csproj", "{F0A7B1F6-DD00-411E-87EA-700CD34E369D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishHeroes.Data", "WishHeroes.Data\WishHeroes.Data.csproj", "{DA1BB8D1-D5E3-40CD-9A47-718A231F300A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishHeroes.Data.Models", "WishHeroes.Data.Models\WishHeroes.Data.Models.csproj", "{5F342D46-539D-4A16-A73D-CE50606D7762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishHeroes.ViewModels", "WishHeroes.ViewModels\WishHeroes.ViewModels.csproj", "{0CFBACD5-9323-4895-9F7E-49ECFEE9B7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishHeroes.Repository", "WishHeroes.Repository\WishHeroes.Repository.csproj", "{17F58829-9731-482D-9F7A-E8E64A77B17D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DDBF792E-9315-461A-8B71-65D65576FB52}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WishHeroes.Frameworks", "WishHeroes.Frameworks\WishHeroes.Frameworks.csproj", "{E1A82979-81DB-4DA9-9462-DAFE7BAD34B6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://relos.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WishHeroes\\WishHeroes.csproj
+		SccProjectName1 = WishHeroes
+		SccLocalPath1 = WishHeroes
+		SccProjectUniqueName2 = WishHeroes.Tests\\WishHeroes.Tests.csproj
+		SccProjectName2 = WishHeroes.Tests
+		SccLocalPath2 = WishHeroes.Tests
+		SccProjectUniqueName3 = WishHeroes.Data\\WishHeroes.Data.csproj
+		SccProjectName3 = WishHeroes.Data
+		SccLocalPath3 = WishHeroes.Data
+		SccProjectUniqueName4 = WishHeroes.Data.Models\\WishHeroes.Data.Models.csproj
+		SccProjectName4 = WishHeroes.Data.Models
+		SccLocalPath4 = WishHeroes.Data.Models
+		SccProjectUniqueName5 = WishHeroes.ViewModels\\WishHeroes.ViewModels.csproj
+		SccProjectName5 = WishHeroes.ViewModels
+		SccLocalPath5 = WishHeroes.ViewModels
+		SccProjectUniqueName6 = WishHeroes.Repository\\WishHeroes.Repository.csproj
+		SccProjectName6 = WishHeroes.Repository
+		SccLocalPath6 = WishHeroes.Repository
+		SccProjectUniqueName7 = WishHeroes.Frameworks\\WishHeroes.Frameworks.csproj
+		SccProjectName7 = WishHeroes.Frameworks
+		SccLocalPath7 = WishHeroes.Frameworks
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074280D8-18FA-4A42-9CC3-25112D386894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074280D8-18FA-4A42-9CC3-25112D386894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074280D8-18FA-4A42-9CC3-25112D386894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074280D8-18FA-4A42-9CC3-25112D386894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A7B1F6-DD00-411E-87EA-700CD34E369D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A7B1F6-DD00-411E-87EA-700CD34E369D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A7B1F6-DD00-411E-87EA-700CD34E369D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A7B1F6-DD00-411E-87EA-700CD34E369D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1BB8D1-D5E3-40CD-9A47-718A231F300A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1BB8D1-D5E3-40CD-9A47-718A231F300A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1BB8D1-D5E3-40CD-9A47-718A231F300A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1BB8D1-D5E3-40CD-9A47-718A231F300A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F342D46-539D-4A16-A73D-CE50606D7762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F342D46-539D-4A16-A73D-CE50606D7762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F342D46-539D-4A16-A73D-CE50606D7762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F342D46-539D-4A16-A73D-CE50606D7762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFBACD5-9323-4895-9F7E-49ECFEE9B7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFBACD5-9323-4895-9F7E-49ECFEE9B7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFBACD5-9323-4895-9F7E-49ECFEE9B7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFBACD5-9323-4895-9F7E-49ECFEE9B7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F58829-9731-482D-9F7A-E8E64A77B17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F58829-9731-482D-9F7A-E8E64A77B17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F58829-9731-482D-9F7A-E8E64A77B17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F58829-9731-482D-9F7A-E8E64A77B17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A82979-81DB-4DA9-9462-DAFE7BAD34B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A82979-81DB-4DA9-9462-DAFE7BAD34B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A82979-81DB-4DA9-9462-DAFE7BAD34B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A82979-81DB-4DA9-9462-DAFE7BAD34B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
