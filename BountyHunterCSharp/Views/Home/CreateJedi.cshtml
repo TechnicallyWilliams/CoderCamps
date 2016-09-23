@@ -1,0 +1,26 @@
+﻿@model BountyHunterCSharp.Models.Jedi 
+
+@{
+    ViewBag.Title = "Create";
+}
+<nav class="navbar navbar-inverse" role="navigation">
+    <div><h4 class="navbar-text navbar-left"><a href="~/Home/Index" class="navbar-link">HOME</a></h4></div><div><h4 class="navbar-text navbar-left"><a href="~/Home/BountyHunters" class="navbar-link">BOUNTY HUNTERS</a></h4></div><div><h4 class="navbar-text navbar-left"><a href="~/Home/Jedis" class="navbar-link">JEDI KNIGHTS</a></h4></div><div><h4 class="navbar-text navbar-left"><a href="~/Home/CreateHunter" class="navbar-link">Create Hunters</a></h4></div><div><h4 class="navbar-text navbar-left"><a href="~/Home/CreateJedi" class="navbar-link">Create Jedi</a></h4></div>
+</nav>
+
+<h2>CREATE</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(m => m.LightSaberColor)
+        @Html.TextBoxFor(m => m.LightSaberColor)<br />
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name) <br />
+        @Html.LabelFor(m => m.Race)
+        @Html.TextBoxFor(m => m.Race) <br />
+        @Html.LabelFor(m => m.Type)
+        @Html.TextBoxFor(m => m.Type) <br />
+        <input type="submit" value="create" />
+    </div>
+
+}<link href="~/Content/bootstrap.css" rel="stylesheet" />
