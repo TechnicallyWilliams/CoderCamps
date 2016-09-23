@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chirper aka Mock Twitter Project", ".", "{12662F65-6209-4ED0-8FCC-82D5291EEC69}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1935"
+		Debug.AspNetCompiler.PhysicalPath = "..\Chirper aka Mock Twitter Project\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1935\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1935"
+		Release.AspNetCompiler.PhysicalPath = "..\Chirper aka Mock Twitter Project\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1935\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1935"
+		SlnRelativePath = "..\Chirper aka Mock Twitter Project\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12662F65-6209-4ED0-8FCC-82D5291EEC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12662F65-6209-4ED0-8FCC-82D5291EEC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

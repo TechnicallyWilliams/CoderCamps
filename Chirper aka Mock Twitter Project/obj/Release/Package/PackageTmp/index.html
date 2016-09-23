@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <title>CHIRPER JS PROJECT</title>
+    <!--Do a row clearfix and if you do more than 12 columns it jumps to the next line-->
+</head>
+<body style="background-color: #2C4762; margin: 0; padding: 0;">
+
+    <div class="container" style="margin-left: auto; margin-right: auto;">
+        <!--Cooper, Colonna MT, Bookman Old Style-->
+        <div class="row clearfix" style="margin-left: auto; margin-right: auto; font-family: 'Bookman Old Style';">
+            <div class="col-md-12 column" style="margin-left: auto; margin-right: auto; margin-top: 30px; position: relative;">
+                <!--http://entrepreneursky.com/wp-content/uploads/2014/06/oPnCT-351x185.png-->
+                <img src="http://cdn.evbuc.com/images/11914078/28869470523/1/logo.png" style="width: 60%; height: 200px; padding: 0px;" />
+            </div>
+            <div class="col-md-4 column" style="opacity: .8; position: relative; margin-left: 30px; margin-right: auto; margin-top: 10px; padding: 0px; background-color: #4099FF; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                <h1><span style="border-bottom: 5px solid white; text-align: left; margin-left: 20px; font-weight: 900; color: #CE1126;">CHAT BOX</span></h1>
+            </div>
+            <div class="col-md-3 column" style="opacity: .8; position: relative; margin-left: 100px; margin-top: 10px; padding: 0px; background-color: #4099FF; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                <h1 style="text-align: center;"><span style="border-bottom: 5px solid white; color: #CE1126; font-weight: 900;">PROFILE</span></h1>
+            </div>
+            <div class="col-md-3 column" style="opacity: .8; position: relative; margin-left: 30px; margin-top: 10px; padding: 0px; background-color: #4099FF; font-weight: 900; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                <h1 style="text-align: center;"><span style="border-bottom: 5px solid white; color: #CE1126;">FOLLOWING</span></h1>
+            </div>
+        </div>
+        <div class="row clearfix" style="margin-left: auto; margin-right: auto; background-color: #4099FF;">
+            <div class="col-md-2 column" style="opacity: .8; background-color: #CE1126; height: 405px; width: 10px;"></div>
+            <div id="tweetsBox" class="col-md-4 column" style="position: relative; float: left; margin-top: 0px; margin-bottom: auto; width: 500px;">
+            </div>
+            <div id="myProfile" class="col-md-3 column" style="position: relative; margin-left: 2px; text-align: left;">
+            </div>
+            <div id="allFriends" class="col-md-3 column" style="position: relative; text-align: left; margin-left: 30px;">
+            </div>
+        </div>
+        <div class="row clearfix" style="margin-left: auto; margin-right: auto; margin-top: 20px; font-family: 'Bookman Old Style';">
+            <div class="col-md-4 column" style="opacity: .8; position: relative; margin-left: 30px; margin-right: auto; margin-top: 10px; padding: 0px; background-color: #4099FF; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                <h1><span style="border-bottom: 5px solid white; text-align: left; margin-left: 20px; font-weight: 500; color: #CE1126;">CHIRPER USERS</span></h1>
+            </div>
+            <div class="col-md-6 column" style="opacity: .8; position: relative; margin-left: 100px; margin-top: 10px; padding: 0px; background-color: #4099FF; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                <h1 style="text-align: center;"><span style="border-bottom: 5px solid white; color: #CE1126; font-weight: 500;">FRIEND'S PROFILE</span></h1>
+            </div>
+        </div>
+        <div class="row clearfix" style="margin-left: auto; margin-right: auto; font-family: 'Bookman Old Style';">
+            <div class="col-md-1 column" style="opacity: .8; background-color: #CE1126; min-height: 275px; width: 10px;"></div>
+
+            <div class="col-md-4 column" style="background-color: #4099FF; height: 275px;">
+                <div class="active" id="allUsers"></div>
+            </div>
+            <div class="col-md-1 column" style="opacity: .8; display: inline; background-color: #CE1126; min-height: 275px; width: 30px; margin-left: 70px;"></div>
+            <div class="col-md-6 column" style="background-color: #4099FF; min-height: 275px;">
+                <p>*Disclaimer: Profile views are broken for users who did not <i>POST</i> their profile correctly.</p>
+                <div id="allProfiles"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="Scripts/jquery-1.9.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="RefactoringCurrentChirper.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+</body>
+</html>
+<footer>
+    <p>CODER CAMPS STUDENT PROJECT</p>
+</footer>
